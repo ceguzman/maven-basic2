@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "ts": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5",
+    "ts-lint": "^4.5.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
